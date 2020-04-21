@@ -1,0 +1,64 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+<div class="a">
+<a href="index.html">HOME</a>
+<a href="lf.html">LOST OR FOUND</a>
+<a href="how.html">HOW IT WORKS</a>
+<a href="about.html">ABOUT US</a>
+</div>
+<div class="d">
+<table><form>
+<tr><td> Report Type*
+</td></tr>
+<tr><td>
+<select id="cars" required>
+  <option value="">Select Report Type</option>
+  <option value="volvo">Lost item</option>
+  <option value="saab">Found item</option>
+ </select></td></tr>
+<tr><td> Article Type*
+</td></tr>
+<tr><td>
+<select id="cars" required>
+  <option value="">Select Article Type</option>
+  <option value="volvo">Driving licence</option>
+  <option value="saab">PAN card</option>
+  <option value="mercedes">Aadhar card</option>
+  <option value="audi">Mobile</option>
+<option value="volvo">Wallet</option>
+  <option value="saab">Gold</option>
+  <option value="mercedes">Educational document</option>
+  <option value="audi">Other</option>
+</select></td></tr>
+<tr><td> Lost/Found date & time</td></tr>
+<tr><td><input type="text"></td></tr>
+<tr><td> First Name</td></tr>
+<tr><td><input type="text"></td></tr>
+<tr><td> Last Name</td></tr>
+<tr><td><input type="text"></td></tr>
+<tr><td> Contact number*</td></tr>
+<tr><td><input type="text" required></td></tr>
+<tr><td> Police Station*</td></tr>
+<tr><td><input type="text" required></td></tr>
+<tr><td> Email id*</td></tr>
+<tr><td><input type="text" required></td></tr>
+<tr><td> Adress*</td></tr>
+<tr><td><input type="text" required></td></tr>
+<tr><td> Article Description*</td></tr>
+<tr><td><input type="text" required></td></tr>
+<tr>
+<td><button onclick="myFunction()" type="submit" value="SUBSCRIBE NOW">Submit</button>
+</td></tr>
+</form></table>
+
+</div>
+<script>
+function myFunction() {
+  document.getElementById("demo").innerHTML = "Thankyou";
+}
+</body>
+</html>
